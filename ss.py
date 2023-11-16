@@ -2,14 +2,11 @@
 import requests , json
 import bs4
 from pytube import YouTube
-import instaloader
-from datetime import datetime
 import os
 from telethon import Button, errors
 from telethon.sync import TelegramClient, events, functions
 DEX = '6140911166'
 people = 1
-
 api_id = 2192036
 api_hash = '3b86a67fc4e14bd9dcfc2f593e75c841'
 bot_token = '5965699318:AAHbRpWVpVZo2wZS1xcw1tsO9IfwydlHsIw'
